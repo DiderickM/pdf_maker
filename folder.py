@@ -16,7 +16,6 @@ def import_data(data_file):
         first_name = row[1]
         course_name = row[2]
         pdf_file_name = course_name + '_' +  first_name + '_' + last_name + '.pdf'
-        
         generate_file(first_name, last_name, course_name, pdf_file_name)
 
 def generate_file(first_name, last_name, course_name, pdf_file_name):
