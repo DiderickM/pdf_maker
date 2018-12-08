@@ -21,7 +21,7 @@ def import_data(data_file):
 def generate_file(first_name, last_name, course_name, pdf_file_name):
     attendee_name = first_name + " " + last_name
     c = canvas.Canvas(pdf_file_name, pagesize=landscape(letter))
-    
+
     #header text
     c.setFont('Helvetica', 48, leading=None)
     #500 from the bottom
